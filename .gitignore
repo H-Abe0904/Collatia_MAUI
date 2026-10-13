@@ -6,3 +6,22 @@ bin/
 
 # .vsフォルダは不要
 /.vs/
+
+# User-specific files（開発者ごとのローカル設定）
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studioのキャッシュや一時ファイル
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+
+# NuGet Packages（パッケージはリポジトリに含めず、ビルド時に復元するのが一般的）
+packages/
+*.nuget.props
+*.nuget.targets
