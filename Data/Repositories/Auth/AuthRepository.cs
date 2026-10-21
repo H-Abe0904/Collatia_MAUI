@@ -27,8 +27,8 @@ namespace Collatia_MAUI.Data.Repositories.Auth
 		/// <returns>登録されたユーザー</returns>
 		public async Task<User> Register(User user, string password, bool isAdmin = false)
 		{
-			var requestData = new { Username = user.Username, Password = password, IsAdmin = isAdmin };
-			var response = await _httpClient.PostAsJsonAsync("api/auth/register", requestData);
+			var requestData = new { user.Username, user.Password, user.IsAdmin };
+			HttpResponseMessage response = await _httpClient.PostAsJsonAsync("api/auth/register", requestData);
 
 			if (!response.IsSuccessStatusCode)
 			{
@@ -38,12 +38,12 @@ namespace Collatia_MAUI.Data.Repositories.Auth
 			return await response.Content.ReadFromJsonAsync<User>();
 		}
 
-		public async Task<User?> LoginAsync(string username, string password)
+		public async Task<User> LoginAsync(string username, string password)
 		{
 			var requestData = new { Username = username, Password = password };
 			var response = await _httpClient.PostAsJsonAsync("api/auth/login", requestData);
 
-			if (!response.IsSuccessStatusCode) return null;
+			if (!response.IsSuccessStatusCode) throw new Exception("ログインに失敗しました。");
 
 			return await response.Content.ReadFromJsonAsync<User>();
 		}
