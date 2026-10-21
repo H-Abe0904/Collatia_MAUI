@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Collatia_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bf448253c860c9c1e3e294997656e8f082c4dd5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Collatia_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Collatia_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

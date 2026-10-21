@@ -1,8 +1,8 @@
 # objフォルダは不要
-obj/
+/obj/
 
 # binフォルダは不要
-bin/
+/bin/
 
 # .vsフォルダは不要
 /.vs/
@@ -25,3 +25,6 @@ bld/
 packages/
 *.nuget.props
 *.nuget.targets
+
+# 環境変数
+*.env
