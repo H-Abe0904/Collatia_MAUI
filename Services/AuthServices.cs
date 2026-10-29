@@ -61,7 +61,7 @@ namespace Collatia_MAUI.AuthServices
 		/// Cookieを復元するメソッド（App.xaml.cs などから呼び出す）
 		/// </summary>
 		/// <returns></returns>
-		public async Task RestroeCookiesAsync()
+		public async Task RestoreCookiesAsync()
 		{
 			try
 			{

@@ -1,3 +1,14 @@
+/***
+ * AuthRepository.cs
+ * 
+ * 認証関連のリポジトリクラスを定義するファイルです。
+ * 以下の処理を行います。
+ * ・ユーザー登録
+ * ・ログイン
+ * ・ユーザー情報変更(パスワード変更)
+ * ・ユーザー削除
+ */
+
 using System.Net.Http;
 using System.Net.Http.Json;
 namespace Collatia_MAUI.Data.Repositories.Auth
@@ -6,6 +17,8 @@ namespace Collatia_MAUI.Data.Repositories.Auth
 	{
 		Task<User> Register(User user, string password, bool isAdmin = false);
 		Task<User> LoginAsync(string username, string password);
+		// Task<bool> ChangePasswordAsync(string username, string oldPassword, string newPassword);	// パスワード変更
+		// Task<bool> DeleteUserAsync(string username, string password);							// ユーザー削除
 		// Task<bool> UserExists(string username);
 	}
 
