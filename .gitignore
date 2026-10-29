@@ -8,7 +8,7 @@ obj/
 bin/
 
 # .vsフォルダは不要
-**/.vs
+.vs/
 
 # User-specific files（開発者ごとのローカル設定）
 *.suo
