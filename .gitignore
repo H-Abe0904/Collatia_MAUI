@@ -1,11 +1,14 @@
 # objフォルダは不要
-/obj/
+obj/
+
+# Visual Studio Codeの設定ファイル
+.vscode/
 
 # binフォルダは不要
-/bin/
+bin/
 
 # .vsフォルダは不要
-/.vs/
+**/.vs
 
 # User-specific files（開発者ごとのローカル設定）
 *.suo

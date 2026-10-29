@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w2znPOJqjEU=",
+  "dgSpecHash": "MhjVEK6omIc=",
   "success": true,
   "projectFilePath": "C:\\Data\\C#_Projects\\Collatia_MAUI\\Collatia_MAUI.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.maui.graphics\\10.0.110\\microsoft.maui.graphics.10.0.110.nupkg.sha512",
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\10.0.110\\microsoft.maui.graphics.win2d.winui.desktop.10.0.110.nupkg.sha512",
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.110\\microsoft.maui.resizetizer.10.0.110.nupkg.sha512",
-    "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.13\\microsoft.net.illink.tasks.10.0.13.nupkg.sha512",
+    "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.14\\microsoft.net.illink.tasks.10.0.14.nupkg.sha512",
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.8249\\microsoft.windows.sdk.buildtools.10.0.26100.8249.nupkg.sha512",
     "C:\\Users\\h-abe\\.nuget\\packages\\microsoft.windows.sdk.buildtools.msix\\1.7.20250829.1\\microsoft.windows.sdk.buildtools.msix.1.7.20250829.1.nupkg.sha512",
